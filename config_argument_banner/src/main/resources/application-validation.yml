@@ -1,0 +1,8 @@
+validation:
+  number: 10
+  not-null: something
+  nameDesc:
+    name: young
+    desc: young zhang
+  someObject:
+    type: not-a-type1

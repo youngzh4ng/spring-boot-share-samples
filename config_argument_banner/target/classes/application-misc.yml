@@ -1,0 +1,5 @@
+misc:
+  randomNumber: ${random.int}
+  toBePlaced: will be place
+  placeholder: toBePlaced is ${misc.toBePlaced}
+  opt: opt1

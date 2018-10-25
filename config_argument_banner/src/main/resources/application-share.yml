@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /share
+spring:
+  profiles:
+    include:
+      - port
+      - merge
+      - validation
+      - misc

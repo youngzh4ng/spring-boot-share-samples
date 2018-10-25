@@ -1,0 +1,11 @@
+com\springboot\share\validator\config\SomeObjectValidator.class
+com\springboot\share\config\MergeConfig$NameDesc.class
+com\springboot\share\controller\ConfigController.class
+com\springboot\share\config\ValidationConfig.class
+com\springboot\share\config\ValidationConfig$SomeObject.class
+com\springboot\share\Application.class
+com\springboot\share\config\validator\ConfigValidatorConfiguration.class
+com\springboot\share\config\MergeConfig.class
+com\springboot\share\config\MiscConfig.class
+com\springboot\share\config\ValidationConfig$NameDesc.class
+com\springboot\share\config\AppConfig.class

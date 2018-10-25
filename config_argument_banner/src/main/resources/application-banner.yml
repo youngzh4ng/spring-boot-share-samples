@@ -1,0 +1,7 @@
+spring:
+  banner:
+    location: banner/banner.txt
+    image:
+      location: banner/banner.jpg
+  main:
+    banner-mode: console

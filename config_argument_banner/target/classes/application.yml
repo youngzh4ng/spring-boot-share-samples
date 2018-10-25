@@ -1,0 +1,33 @@
+spring:
+  config:
+    location: classpath:custom-config/, file:./custom-config/
+  profiles:
+    active: share
+app:
+  application-name: Spring Boot Share Sample of application.yml
+  kebab-case: Kebab Case
+  camelCase: Camel Case
+  underscore_notation: Underscore Notation
+  UPPER_CASE_FORMAT: Upper Case Format
+merge:
+  list:
+  - name: name in application-merge.xml 1
+  - name: name in application-merge.xml 2
+    desc: desc in application-merge.xml 2
+  map:
+    key1:
+      name: name in key1 in application-merge.xml
+      desc: desc in key1 in application-merge.xml
+---
+spring:
+  profiles: share
+merge:
+  list:
+  - name: name in application.xml profile share 2
+    desc: desc in application.xml profile share 2
+  map:
+    key1:
+      name: name in key1 in application.xml profile share
+    key2:
+      name: name in key2 in application.xml profile share
+      desc: desc in key2 in application.xml profile share

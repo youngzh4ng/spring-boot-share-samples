@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      host: hln2390p
+      port: 27024
+      database: hrc
+      username: hrcowner
+      password: hrcowner
+logging:
+  level:
+    root: info
+    org.hibernate.SQL: TRACE
+    org.springframework.data.mongodb.core.MongoTemplate: TRACE
+    org.springframework.boot.autoconfigure: ERROR

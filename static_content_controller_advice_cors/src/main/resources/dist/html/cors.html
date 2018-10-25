@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Boot Test</title>
+    <link type="favicon" rel="shortcut icon" href="favicon.ico" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $.ajax({
+                url:"http://localhost:8080/users/user",
+                success: function(data) {
+                    console.log(data);
+                }
+            });
+            $.ajax({
+                url:"http://irisbackendqa1.oocl.com/nj_dom_hrc/api/v1/internalUserProfiles/weica",
+                success: function(data) {
+                    console.log(data);
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+<h3>Hello Spring Boot Cors Sample</h3>
+</body>
+</html>

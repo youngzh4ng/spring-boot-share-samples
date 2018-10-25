@@ -1,0 +1,12 @@
+spring:
+  mvc:
+    contentnegotiation:
+      favor-parameter: true
+      parameter-name: wantFormat
+      media-types:
+        json: application/json
+        iwantajson: application/json
+        html: text/html
+      favor-path-extension: true
+    pathmatch:
+      use-registered-suffix-pattern: true

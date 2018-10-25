@@ -1,0 +1,9 @@
+com\springboot\share\controller\InternalUserProfileController.class
+com\springboot\share\jpa\UserRepository.class
+com\springboot\share\service\impl\UserServiceImpl.class
+com\springboot\share\controller\UserController.class
+com\springboot\share\jpa\InternalUserProfileRepository.class
+com\springboot\share\Application.class
+com\springboot\share\domain\InternalUserProfile.class
+com\springboot\share\service\UserService.class
+com\springboot\share\domain\User.class
